@@ -1,0 +1,61 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	66
+#@/user_id	6d88d04c-81af-4f7f-b919-dba7c1a0b662
+ba 	把	c=1 d=1 t=35
+bang 	棒	c=1 d=1 t=48
+ce shi 	測試	c=1 d=1 t=6
+ci ku 	詞庫	c=1 d=1 t=58
+da 	大	c=1 d=1 t=24
+diao 	掉	c=1 d=1 t=13
+dui 	對	c=2 d=1.91393 t=37
+dui hao 	對號	c=1 d=1 t=17
+e 	鵝	c=1 d=1 t=25
+fa wo 	發我	c=1 d=1 t=40
+gan tan hao 	感歎號	c=1 d=1 t=16
+ge 	個	c=1 d=1 t=29
+hai 	還	c=1 d=1 t=27
+hai shi 	還是	c=1 d=1 t=60
+hai zai 	還在	c=1 d=1 t=45
+hao 	號	c=1 d=1 t=20
+he 	鶴	c=2 d=2.05101 t=10
+jiao ben 	腳本	c=1 d=1 t=65
+ke yi 	可以	c=2 d=1.74082 t=63
+lang fei 	浪費	c=0 d=0.1 t=4
+le 	了	c=1 d=1 t=4
+lian 	臉	c=1 d=1 t=57
+liao 	聊	c=1 d=1 t=46
+ma 	嗎	c=1 d=1 t=32
+mei you 	沒有	c=1 d=1 t=54
+ne 	呢	c=1 d=1 t=59
+ni 	你	c=3 d=2.78382 t=66
+ni men 	你們	c=1 d=1 t=43
+pei zhi 	配置	c=1 d=1 t=38
+sai 	賽	c=1 d=1 t=7
+sha 	啥	c=2 d=1.96304 t=52
+sha wan yi 	啥玩意	c=1 d=1 t=49
+shang pin 	商品	c=1 d=1 t=12
+sheng dan ka 	聖誕卡	c=0 d=0.1 t=4
+sheng dan ka lang fei 	聖誕卡浪費	c=1 d=1 t=5
+shuang pin 	雙拼	c=2 d=2.06079 t=10
+song 	送	c=1 d=1 t=28
+wan yi 	玩意	c=0 d=0.1 t=48
+wen hao 	問號	c=3 d=2.95556 t=21
+wen jian 	文件	c=1 d=1 t=39
+wu 	捂	c=1 d=1 t=56
+xi 	洗	c=1 d=1 t=22
+xiao 	小	c=1 d=1.09005 t=10
+xiao he shuang pin 	小鶴雙拼	c=1 d=1 t=11
+xiao ku 	笑哭	c=3 d=2.91678 t=42
+ya 	呀	c=1 d=1 t=55
+ye 	也	c=1 d=1 t=53
+yi fen 	一份	c=1 d=1 t=41
+yi jia 	衣架	c=1 d=1 t=30
+yi zhao 	衣罩	c=1 d=1 t=31
+zen me 	怎麼	c=1 d=1 t=44
+zhe 	這	c=1 d=1 t=51
+zhe ge 	這個	c=4 d=3.75803 t=62
+zhong can 	中餐	c=1 d=1 t=14
+zi ding yi 	自定義	c=1 d=1 t=64

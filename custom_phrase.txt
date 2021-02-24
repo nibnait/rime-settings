@@ -14,6 +14,7 @@
 #
 # no comment
 
+OmniGraffle	omnigraffle
 为什么	wsm
 为什么	wum
 我们	wm
@@ -38,8 +39,8 @@ GBK	gbk
 UTF-8	utfba
 macOS High Sierra	macos	2
 macOS Mojave	macos	3
-macOS	macos	4
-macOS Sierra	macos	1
+macOS	macos	1
+macOS Sierra	macos	4
 Google Analytics	ga
 macOS	macos
 Linux	linux
@@ -57,11 +58,12 @@ SQL	sql
 Objective-C	ojbc
 Ruby	ruby
 Rust	rust
-WeChat	wechat
+WeChat	wechat	2
 Swift	swift
 MacBook Pro	mbp
 MacBook	macbook
 Apple	apple
+Store	store
 U盘	upj
 GitHub	github
 iMac	imac

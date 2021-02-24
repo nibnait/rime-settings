@@ -4,8 +4,8 @@ __build_info:
     date_translator: 0
     default: 1613228859
     default.custom: 1605449583
-    double_pinyin_flypy.custom: 1614139965
-    double_pinyin_flypy.schema: 1614139723
+    double_pinyin_flypy.custom: 1614166834
+    double_pinyin_flypy.schema: 1614166643
     easy_en: 1605449583
     easy_en.custom: 1605449583
     easy_en.schema: 1605449583
@@ -17,6 +17,8 @@ __build_info:
     lua_select_character.custom: 0
     punctuation: 1613228859
     punctuation.custom: 0
+"abc_segmentor/extra_tags":
+  - emoji
 custom_phrase:
   db_class: stabledb
   dictionary: ""
@@ -24,6 +26,15 @@ custom_phrase:
   enable_sentence: true
   initial_quality: 1
   user_dict: custom_phrase
+emoji:
+  closing_tips: ">"
+  dictionary: X_emoji
+  enable_sentence: false
+  initial_quality: 0.9
+  prefix: yw
+  suffix: "'"
+  tag: emoji
+  tips: "【颜文字】"
 engine:
   filters:
     - simplifier
@@ -53,6 +64,11 @@ engine:
     - "lua_translator@time_translator"
     - "lua_translator@week_translator"
     - "script_translator@emoji"
+filter_emoji:
+  dictionary: X_emoji
+  overwrite_coment: true
+  tags:
+    - emoji
 key_binder:
   bindings:
     - {accept: Tab, send: Right, when: composing}
@@ -140,6 +156,7 @@ recognizer:
     reverse_lookup: "`[a-z]*'?$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+"recognizer/patterns/emoji": "yw[a-z]*'?$"
 reverse_lookup:
   comment_format:
     - "xform/([nl])v/$1ü/"

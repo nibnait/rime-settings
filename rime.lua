@@ -35,7 +35,7 @@ local function date_conversion(type)
 end
 
 function date_translator(input, seg, env)
-  -- 如果输入串为 `date` 则翻译
+  -- 如果输入串为 `rq` 则翻译
   if (input == "rq") then
     --[[ 用 `yield` 产生一个候选项
            候选项的构造函数是 `Candidate`，它有五个参数：
@@ -55,7 +55,7 @@ function date_translator(input, seg, env)
 end
 
 function time_translator(input, seg)
-  -- 如果输入串为 `time` 则翻译
+  -- 如果输入串为 `tt` 则翻译
   if (input == "tt") then
     yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), " 时间"))
     yield(Candidate("time", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), " 时间日期"))
@@ -65,8 +65,8 @@ function time_translator(input, seg)
 end
 
 function week_translator(input, seg)
-  -- 如果输入串为 `time` 则翻译
-  if (input == "ww") then
+  -- 如果输入串为 `we` 则翻译
+  if (input == "we") then
      arr = {"一","二","三","四","五","六"}
      arr[0] = "日"
      yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d 星期"..arr[tonumber(os.date("%w"))]), ""))

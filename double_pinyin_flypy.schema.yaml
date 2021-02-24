@@ -136,6 +136,24 @@ translator:
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
+# 颜文字翻译器+反查, 前缀为yw
+  recognizer/patterns/emoji: "yw[a-z]*'?$"
+  abc_segmentor/extra_tags: # 为abc标记的段落加上emoji标签
+    - emoji
+  emoji: # emoji标签和翻译器同名, 可同时设置
+    tag: emoji
+    dictionary: "X_emoji"
+    tips: "【颜文字】"
+    closing_tips: ">"
+    prefix: "yw"
+    suffix: "'"
+    enable_sentence: false
+    initial_quality: 0.9 # 小于主翻译器优先级, 初始位于主翻译器所有匹配到的词后面, 打出过一次后会往前移, 但基本上不会到达第一位置
+  filter_emoji: # 反查颜文字的编码
+    tags: [ emoji ]
+    overwrite_coment: true
+    dictionary: "X_emoji"
+    
 reverse_lookup:
   dictionary: stroke
   enable_completion: true

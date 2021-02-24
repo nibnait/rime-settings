@@ -1,0 +1,327 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"impl",
+				"implements"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nibnait/Library/Rime"
+	],
+	"file_history":
+	[
+		"/Users/nibnait/Library/Rime/custom_phrase.txt",
+		"/Users/nibnait/Library/Rime/.gitignore",
+		"/Users/nibnait/Library/Rime/rime.lua",
+		"/Users/nibnait/Library/Rime/double_pinyin_flypy.schema.yaml",
+		"/Users/nibnait/Library/Rime/double_pinyin_flypy.custom.yaml",
+		"/Users/nibnait/Library/Rime/lua/date.lua",
+		"/Users/nibnait/Library/Rime/double_pinyin.schema.yaml",
+		"/Users/nibnait/Library/Rime/luna_pinyin_simp.custom.yaml",
+		"/Users/nibnait/Library/Rime/opencc/emoji_word.txt",
+		"/Users/nibnait/Library/Rime/lua/datetime.lua",
+		"/Users/nibnait/Library/Rime/lua/select_character.lua",
+		"/Users/nibnait/Library/Rime/build/squirrel.yaml",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/21Q1/库存-分库分表CR.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/21Q1/SkyWalking",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/untitled.md",
+		"/Users/nibnait/Downloads/uat.txt",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/21Q1/商品全款预售转现货.txt",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/21Q1/商品现货转全款预售.txt",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/create table/items_opt_log.sql",
+		"/再见",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/untitled",
+		"/Users/nibnait/Desktop/pre.txt",
+		"/Users/nibnait/Desktop/untitled",
+		"/Users/nibnait/Downloads/cmspeekinfo.txt",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/21Q1/非非交接.md",
+		"/Users/nibnait/Desktop/uat.txt",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/0 分享会/供应链.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/create table/items.sql",
+		"/Users/nibnait/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688850815822139/Cache/File/2021-01/mybatis",
+		"/Users/nibnait/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688850815822139/Cache/File/2021-01/logback.xml",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/create table/items_sku.sql",
+		"/Users/nibnait/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688850815822139/Cache/File/2021-01/123",
+		"/Users/nibnait/Desktop/fat.txt",
+		"/Users/nibnait/Desktop/uat",
+		"/Users/nibnait/Desktop/prod",
+		"/Users/nibnait/Desktop/pre",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/local.sublime-project",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/1",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/学习笔记",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/风控接口升级",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/LokiService.order_invalid_auto_by_system",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/0522早 ",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/单测.java",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/flow_make_up",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/loki curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/1 交接/订单处理页替换",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/auto_success",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/完结订单",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/[{\"taskId\":19773355133,\"fromStatus\":2,\"toStatus\":0",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/[",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/完结订单",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/STATUS_INVALID_CHECK",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/bos curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/pylon soa call",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/delivery查询新零售订单取消原因",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2005/数据修复预案",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/退单打点",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/curl -X POST \\",
+		"/Users/nibnait/Downloads/STAGE_单元测试 (4)",
+		"/Users/nibnait/Downloads/STAGE_单元测试 (3)",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/0 分享会/redis.md",
+		"/Users/nibnait/Downloads/STAGE_单元测试 (2)",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/活动回退",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/nevermore.service curl",
+		"/Users/nibnait/Downloads/STAGE_单元测试",
+		"/Users/nibnait/Downloads/env.yaml",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/ReTryException",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/0 分享会/netty.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/称重商品部分退.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/sword.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/多次退复盘.md",
+		"/Users/nibnait/Downloads/lemon-cli.sh",
+		"/Users/nibnait/Downloads/api_check.py",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/利剑行动.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/pts_loki_new_invalid_async_crontab_execute_tasks.config.json",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/pts_loki_new_cancel_async_crontab_execute_tasks.config.json",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2004/pts_loki_new_refund_async_crontab_execute_tasks.config.json",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/0 分享会/交付概述.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2003/loki 需求评审",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2003/biz.bos  线上debug.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/new.json",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/old.json",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/1 交接/GET_MORE_ORDER",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/日志.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/cd :data:log:app:nevermore.remind && cat logFile.l",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/1 交接/按摩椅.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/11月28日 nevermore按照文档接入ewatch",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/匿名小号流程.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/小号.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/自定义小票",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/02019/1912/nevermore.service curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2002/在家办公",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/nevermore.service curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/CheckList 匿名小号.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/CheckList 小票2.0.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/1交接/180906__GET_MORE_ORDER",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/客服电话.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/匿名小号 checkList.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/consigneePhones",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/2001/bos修改订单",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Study_Note/小工具/我的MBP.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/学习笔记/git/git_rebase.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/bos code review",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/自配送服务迁移.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/bos curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/Napos 匿名小号.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/bos 订单列表页 curl",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/fucn() {",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1912/骑士节.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/nevermore.remind发布.md",
+		"/Users/nibnait/apache-maven-3.6.3/conf/settings.xml",
+		"/Users/nibnait/Desktop/input",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/ATA大学/如何画图.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/queryShortNumber",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1120发布.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/eos通知订单信息变更",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/订单卡片-出餐时长模块.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/匿名小号.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/feature:blink_read_migrate 发布.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/switch:",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/delivery接口迁移.md",
+		"/Users/nibnait/Desktop/delivery接口迁移.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/1012发布.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1112发布.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/1017发布.md",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1、每个项【自己写几项填写几个一一对应】：填写按事实-背景-案例，进行客观评价（解读：写一下kpi这",
+		"/Users/nibnait/apache-maven-3.6.2/conf/settings.xml",
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/untitled"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"/Users/nibnait/Library/Rime"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"date_translator",
+			"lua_translator",
+			"translators",
+			"select_character",
+			"easy_en.lua",
+			"easy_en",
+			"笑哭",
+			"😂",
+			"select_character",
+			"❓️",
+			"对号",
+			"对",
+			"问号"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "Rime.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"GetRestaurantPeakCookTimeExecutor"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

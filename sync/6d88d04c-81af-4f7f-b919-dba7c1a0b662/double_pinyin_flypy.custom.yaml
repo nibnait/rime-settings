@@ -29,6 +29,7 @@ patch:
     - table_translator
     - lua_translator@date_translator
     - lua_translator@time_translator
+    - lua_translator@week_translator
     - script_translator@emoji                    # emoji翻译器
   engine/filters:
     - simplifier@emoji_suggestion
@@ -56,10 +57,9 @@ patch:
   translator/dictionary: luna_pinyin.extended
   translator/preedit_format: {}
 
-
   # 自定义符号上屏
   punctuator:
-    import_preset: symbols
+    import_preset: symbols.custom
     # 自定义快捷符号输入
     symbols:
       "/fs": [½,‰,¼,⅓,⅔,¾,⅒]
@@ -101,6 +101,24 @@ patch:
     enable_sentence: true
     initial_quality: 1 # 和主翻译器优先级相等
   "engine/translators/@5": table_translator@custom_phrase
+  
+  # 颜文字翻译器+反查, 前缀为yw
+  recognizer/patterns/emoji: "yw[a-z]*'?$"
+  abc_segmentor/extra_tags: # 为abc标记的段落加上emoji标签
+    - emoji
+  emoji: # emoji标签和翻译器同名, 可同时设置
+    tag: emoji
+    dictionary: "X_emoji"
+    tips: "【颜文字】"
+    closing_tips: ">"
+    prefix: "yw"
+    suffix: "'"
+    enable_sentence: false
+    initial_quality: 0.9 # 小于主翻译器优先级, 初始位于主翻译器所有匹配到的词后面, 打出过一次后会往前移, 但基本上不会到达第一位置
+  filter_emoji: # 反查颜文字的编码
+    tags: [ emoji ]
+    overwrite_coment: true
+    dictionary: "X_emoji"    
 
 # Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy
   __include: easy_en:/patch
@@ -109,4 +127,7 @@ patch:
   __include: grammar:/hant
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
   __include: lua_select_character:/patch
+  __include: date_translator:/patch
+  __include: time_translator:/patch
+  __include: week_translator:/patch
 # }

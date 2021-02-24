@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     squirrel: 1613228858
-    squirrel.custom: 1605449583
+    squirrel.custom: 1614170855
 app_options:
   com.agilebits.onepassword7:
     ascii_mode: true

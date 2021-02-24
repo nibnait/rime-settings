@@ -1,6 +1,5 @@
 patch:
   schema_list:
-    - schema: double_pinyin_flypy_fluency   # 新增「小鶴雙拼·語句流」
     - schema: double_pinyin_flypy # 小鹤双拼
     - schema: luna_pinyin # 全拼
     # - schema: double_pinyin # 自然码
@@ -9,9 +8,9 @@ patch:
   switcher/save_options:
     - full_shape
     - ascii_punct
+    - emoji_suggestion
     - simplification
     - zh_hans
-    - emoji_suggestion
   menu/page_size: 8
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写

@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     default: 1613228859
-    default.custom: 1605449583
+    default.custom: 1614171122
     key_bindings: 1613228859
     key_bindings.custom: 0
     punctuation: 1613228859
@@ -113,6 +113,6 @@ switcher:
   save_options:
     - full_shape
     - ascii_punct
+    - emoji_suggestion
     - simplification
     - zh_hans
-    - emoji_suggestion

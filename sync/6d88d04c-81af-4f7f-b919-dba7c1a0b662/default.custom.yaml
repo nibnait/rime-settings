@@ -8,9 +8,9 @@ patch:
   switcher/save_options:
     - full_shape
     - ascii_punct
+    - emoji_suggestion
     - simplification
     - zh_hans
-    - emoji_suggestion
   menu/page_size: 8
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写

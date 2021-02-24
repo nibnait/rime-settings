@@ -36,7 +36,7 @@ end
 
 function date_translator(input, seg, env)
   -- 如果输入串为 `date` 则翻译
-  if (input == "date") then
+  if (input == "rq") then
     --[[ 用 `yield` 产生一个候选项
            候选项的构造函数是 `Candidate`，它有五个参数：
             - type: 字符串，表示候选项的类型
@@ -56,7 +56,7 @@ end
 
 function time_translator(input, seg)
   -- 如果输入串为 `time` 则翻译
-  if (input == "time") then
+  if (input == "tt") then
     yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), " 时间"))
     yield(Candidate("time", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), " 时间日期"))
     yield(Candidate("time", seg.start, seg._end, os.date("%H时%M分%S秒"), " 时间中文"))

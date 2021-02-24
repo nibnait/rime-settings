@@ -14,6 +14,8 @@
 #
 # no comment
 
+为什么	wsm	1
+我们	wm
 好吧	hb
 昨天	zt
 自定义	zdy

@@ -14,16 +14,27 @@ patch:
       states: [ 漢字, 汉字 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+  engine/segmentors: # 注意, 有顺序
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@emoji # 自定义的emoji标签
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
   engine/translators:
-    # - lua_translator@date_translator
-    # - lua_translator@week_translator
     - punct_translator
+    - reverse_lookup_translator                  # 旧的反查+翻译器, 这里用来做笔画反查
     - script_translator
-    - table_translator@custom_phrase
+    - table_translator@custom_phrase             # 表示调用custom_phrase段编码
+    - table_translator
+    - lua_translator@date_translator
+    - lua_translator@week_translator
+    - script_translator@emoji                    # emoji翻译器
   engine/filters:
     - simplifier@emoji_suggestion
     - simplifier
     - uniquifier
+    - reverse_lookup_filter@filter_emoji
     #- charset_filter@gbk
     # - single_char_filter
   engine/processors:
@@ -42,8 +53,8 @@ patch:
   reverse_lookup: {}
 
   #載入朙月拼音擴充詞庫
-  'translator/dictionary': luna_pinyin.extended
-  'translator/preedit_format': {}
+  translator/dictionary: luna_pinyin.extended
+  translator/preedit_format: {}
 
 
   # 自定义符号上屏
@@ -88,7 +99,7 @@ patch:
     db_class: stabledb
     enable_completion: true
     enable_sentence: true
-    initial_quality: 1
+    initial_quality: 1 # 和主翻译器优先级相等
   "engine/translators/@5": table_translator@custom_phrase
 
 # Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy

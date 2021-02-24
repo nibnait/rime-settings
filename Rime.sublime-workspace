@@ -53,11 +53,15 @@
 	],
 	"file_history":
 	[
-		"/Users/nibnait/Library/Rime/custom_phrase.txt",
 		"/Users/nibnait/Library/Rime/.gitignore",
-		"/Users/nibnait/Library/Rime/rime.lua",
+		"/Users/nibnait/Library/Rime/custom_phrase.txt",
+		"/Users/nibnait/Library/Rime/untitled",
 		"/Users/nibnait/Library/Rime/double_pinyin_flypy.schema.yaml",
 		"/Users/nibnait/Library/Rime/double_pinyin_flypy.custom.yaml",
+		"/Users/nibnait/Library/Rime/Custom_phrase.txt",
+		"/Users/nibnait/Library/Rime/double_pinyin.custom.yaml",
+		"/Users/nibnait/Library/Rime/mobile/rime.lua",
+		"/Users/nibnait/Library/Rime/rime.lua",
 		"/Users/nibnait/Library/Rime/lua/date.lua",
 		"/Users/nibnait/Library/Rime/double_pinyin.schema.yaml",
 		"/Users/nibnait/Library/Rime/luna_pinyin_simp.custom.yaml",
@@ -176,11 +180,7 @@
 		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/delivery接口迁移.md",
 		"/Users/nibnait/Desktop/delivery接口迁移.md",
 		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/1012发布.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1112发布.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/1017发布.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1、每个项【自己写几项填写几个一一对应】：填写按事实-背景-案例，进行客观评价（解读：写一下kpi这",
-		"/Users/nibnait/apache-maven-3.6.2/conf/settings.xml",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1910/untitled"
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1112发布.md"
 	],
 	"find":
 	{
@@ -199,6 +199,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cus",
+			"custom_phrase",
+			"engine/translators",
+			"segmentors",
+			"style/horizontal",
+			"custom_phrase",
+			"table_translator",
+			"env",
 			"date_translator",
 			"lua_translator",
 			"translators",
@@ -319,7 +327,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 356.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

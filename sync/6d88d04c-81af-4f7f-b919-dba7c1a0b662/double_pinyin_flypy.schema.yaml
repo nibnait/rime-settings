@@ -42,11 +42,26 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
+    - reverse_lookup_translator                  # 旧的反查+翻译器, 这里用来做笔画反查
     - script_translator
+    - table_translator@custom_phrase             # 表示调用custom_phrase段编码
+    - table_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+    - lua_translator@week_translator
+    - script_translator@emoji                    # emoji翻译器
+
   filters:
     - simplifier
     - uniquifier
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: true
+  initial_quality: 1 # 和主翻译器优先级相等
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

@@ -28,6 +28,7 @@ patch:
     - table_translator@custom_phrase             # 表示调用custom_phrase段编码
     - table_translator
     - lua_translator@date_translator
+    - lua_translator@time_translator
     - lua_translator@week_translator
     - script_translator@emoji                    # emoji翻译器
   engine/filters:
@@ -110,4 +111,6 @@ patch:
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
   __include: lua_select_character:/patch
   __include: date_translator:/patch
+  __include: time_translator:/patch
+  __include: week_translator:/patch
 # }

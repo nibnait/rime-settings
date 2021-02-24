@@ -14,10 +14,12 @@
 #
 # no comment
 
-为什么	wsm	1
+为什么	wsm
+为什么	wum
 我们	wm
 好吧	hb
 昨天	zt
+今天	jt
 自定义	zdy
 嘻嘻	xx
 嘿嘿	hh

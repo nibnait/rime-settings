@@ -43,6 +43,9 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - script_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+
   filters:
     - simplifier
     - uniquifier

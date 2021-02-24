@@ -14,6 +14,18 @@
 #
 # no comment
 
+为什么	wsm
+为什么	wum
+我们	wm
+好吧	hb
+昨天	zt
+今天	jt
+自定义	zdy
+嘻嘻	xx
+嘿嘿	hh
+哈哈	hh
+朋友圈	pyq
+现在	xz
 中州韻輸入法引擎	rime	2
 又双叒叕	yyy
 http://rime.im/	rime	1

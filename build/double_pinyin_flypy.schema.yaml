@@ -4,8 +4,8 @@ __build_info:
     date_translator: 0
     default: 1613228859
     default.custom: 1605449583
-    double_pinyin_flypy.custom: 1614137944
-    double_pinyin_flypy.schema: 1614138158
+    double_pinyin_flypy.custom: 1614139965
+    double_pinyin_flypy.schema: 1614139723
     easy_en: 1605449583
     easy_en.custom: 1605449583
     easy_en.schema: 1605449583
@@ -50,6 +50,7 @@ engine:
     - "table_translator@custom_phrase"
     - table_translator
     - "lua_translator@date_translator"
+    - "lua_translator@time_translator"
     - "lua_translator@week_translator"
     - "script_translator@emoji"
 key_binder:

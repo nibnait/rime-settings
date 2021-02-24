@@ -47,6 +47,7 @@ engine:
     - table_translator@custom_phrase             # 表示调用custom_phrase段编码
     - table_translator
     - lua_translator@date_translator
+    - lua_translator@time_translator
     - lua_translator@week_translator
     - script_translator@emoji                    # emoji翻译器
 

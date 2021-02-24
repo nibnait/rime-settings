@@ -1,0 +1,11 @@
+# Rime user dictionary
+#@/db_name	easy_en
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	5
+#@/user_id	6d88d04c-81af-4f7f-b919-dba7c1a0b662
+fa 	FA	c=1 d=1 t=4
+k 	K	c=1 d=1 t=5
+kj 	kj	c=1 d=1 t=2
+l 	L	c=1 d=1 t=1
+sd 	SD	c=1 d=1 t=3

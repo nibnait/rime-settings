@@ -63,3 +63,12 @@ function time_translator(input, seg)
     yield(Candidate("time", seg.start, seg._end, os.date("%Y年%m月%d日 %H时%M分%S秒"), " 时间日期中文"))
   end
 end
+
+function week_translator(input, seg)
+  -- 如果输入串为 `time` 则翻译
+  if (input == "ww") then
+     arr = {"一","二","三","四","五","六"}
+     arr[0] = "日"
+     yield(Candidate("date", seg.start, seg._end, os.date("%Y-%m-%d 星期"..arr[tonumber(os.date("%w"))]), ""))
+  end
+end

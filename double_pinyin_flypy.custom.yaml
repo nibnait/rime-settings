@@ -81,7 +81,6 @@ patch:
   recognizer/patterns/punct: "^/([0-9]0?|[A-Za-z]+)$"
 
     
-
   ### 双拼使用自定义词典 custom_phrase.txt
   custom_phrase:
     dictionary: ""
@@ -99,4 +98,5 @@ patch:
   __include: grammar:/hant
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
   __include: lua_select_character:/patch
+  __include: date_translator:/patch
 # }

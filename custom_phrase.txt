@@ -50,10 +50,6 @@ nibnait	nibnait
 朋友圈	pyq
 现在	xz
 SkyWalking	skywalking
-中州韻輸入法引擎	rime	2
-又双叒叕	yyy
-http://rime.im/	rime	1
-Rime	rime	3
 Excel	excel
 Word	word
 ⌘	cmd

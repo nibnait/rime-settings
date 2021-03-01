@@ -14,35 +14,55 @@
 #
 # no comment
 
-OmniGraffle	omnigraffle
+feature/merchant_enter	fme
+feature/exception	fex
+http://ops-rider.bilibili.co/App/Mybuild	rider
+http://localhost:1234/#/application	lo1234
+http://localhost:8081/swagger-ui.html#!	lo8081
+npm run mall-uat-serve	nrm
+[Facepalm]	wulm
+[Grin]	ciya
+NibNait	nibnait
+nibnait	nibnait
+田彬	tb
+开始	ks
+可以	ky
+晚上	ws	1
+为啥	ws	2
 为什么	wsm
 为什么	wum
+我看下	wkx
+能不能	nbn
+没有	my
 我们	wm
+你们	nm
 好吧	hb
+早上	zs
 昨天	zt
 今天	jt
+明天	mt
+半天	bt
 自定义	zdy
-嘻嘻	xx
+看看	kk
+嗯嗯	ee
 嘿嘿	hh
 哈哈	hh
 朋友圈	pyq
 现在	xz
+SkyWalking	skywalking
 中州韻輸入法引擎	rime	2
 又双叒叕	yyy
 http://rime.im/	rime	1
 Rime	rime	3
+Excel	excel
+Word	word
 ⌘	cmd
 ⌃	ctl
 ⌥	opt
 ⇧	shift
 GBK	gbk
 UTF-8	utfba
-macOS High Sierra	macos	2
-macOS Mojave	macos	3
-macOS	macos	1
-macOS Sierra	macos	4
 Google Analytics	ga
-macOS	macos
 Linux	linux
 CSS	css
 HTML html
@@ -50,6 +70,7 @@ iOS	ios
 iPad	ipad
 iPhone	iphone
 iTunes	itunes
+OmniGraffle	omnigraffle
 JavaScript js
 TypeScript ts
 jQuery	jquery
@@ -61,7 +82,6 @@ Rust	rust
 WeChat	wechat	2
 Swift	swift
 MacBook Pro	mbp
-MacBook	macbook
 Apple	apple
 Store	store
 U盘	upj
@@ -77,7 +97,6 @@ Mac App Store	mas
 OS X	osx
 GUN/Linux linux
 X-Ray	xray
-Xbox One	xbox
 Youku	youku
 YouTube	youtube
 又双叒叕	yzyz

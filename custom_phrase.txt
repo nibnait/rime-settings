@@ -14,25 +14,29 @@
 #
 # no comment
 
+feature/merchant_enter_supplier	fms
 feature/merchant_enter	fme
 feature/exception	fex
 http://ops-rider.bilibili.co/App/Mybuild	rider
 http://localhost:1234/#/application	lo1234
 http://localhost:8081/swagger-ui.html#!	lo8081
-npm run mall-uat-serve	nrm
 [Facepalm]	wulm
 [Grin]	ciya
 NibNait	nibnait
 nibnait	nibnait
+小时	xs
 田彬	tb
 开始	ks
 可以	ky
 晚上	ws	1
+干啥	gs
+公司	gs
 为啥	ws	2
 为什么	wsm
 为什么	wum
 我看下	wkx
 能不能	nbn
+是不是	sbs
 没有	my
 我们	wm
 你们	nm
@@ -44,9 +48,11 @@ nibnait	nibnait
 半天	bt
 自定义	zdy
 看看	kk
+哦哦	oo
 嗯嗯	ee
 嘿嘿	hh
 哈哈	hh
+宝贝	bb
 朋友圈	pyq
 现在	xz
 SkyWalking	skywalking
@@ -56,8 +62,6 @@ Word	word
 ⌃	ctl
 ⌥	opt
 ⇧	shift
-GBK	gbk
-UTF-8	utfba
 Google Analytics	ga
 Linux	linux
 CSS	css
@@ -92,7 +96,6 @@ IPv6	ipv
 Mac App Store	mas
 OS X	osx
 GUN/Linux linux
-X-Ray	xray
 Youku	youku
 YouTube	youtube
 又双叒叕	yzyz

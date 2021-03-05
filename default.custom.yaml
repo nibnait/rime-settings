@@ -1,10 +1,10 @@
 patch:
   schema_list:
     - schema: double_pinyin_flypy # 小鹤双拼
-    #　- schema: luna_pinyin # 全拼
+    - schema: luna_pinyin # 全拼
     # - schema: double_pinyin # 自然码
   switcher/hotkeys:
-    - "Control+grave" # 注意是control+`，不是command+`
+    # - "Control+grave" # 注意是control+`，不是command+`
   switcher/save_options:
     - full_shape
     - ascii_punct

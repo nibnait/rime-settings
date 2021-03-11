@@ -16,7 +16,7 @@
 
 feature/merchant_enter_supplier	fms
 feature/merchant_enter	fme
-feature/exception	fex
+feature/shopSettlement	fss
 http://ops-rider.bilibili.co/App/Mybuild	rider
 http://localhost:1234/#/application	lo1234
 http://localhost:8081/swagger-ui.html#!	lo8081
@@ -24,6 +24,10 @@ http://localhost:8081/swagger-ui.html#!	lo8081
 [Grin]	ciya
 NibNait	nibnait
 nibnait	nibnait
+了	l
+你	n
+好嘞	hclw
+但是	ds
 小时	xs
 田彬	tb
 开始	ks
@@ -45,8 +49,12 @@ nibnait	nibnait
 昨天	zt
 今天	jt
 明天	mt
+明年	mn
 半天	bt
+白天	bt
 自定义	zdy
+饿了么	eleme
+阿里	ali
 看看	kk
 哦哦	oo
 嗯嗯	ee

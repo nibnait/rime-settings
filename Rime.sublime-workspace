@@ -11,42 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "double_pinyin_flypy.schema.yaml",
-			"settings":
-			{
-				"buffer_size": 32101,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom_phrase.txt",
-			"settings":
-			{
-				"buffer_size": 1091,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "opencc/emoji_word.txt",
-			"settings":
-			{
-				"buffer_size": 63888,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "opencc/emoji_category.txt",
-			"settings":
-			{
-				"buffer_size": 4056,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -86,22 +50,29 @@
 	"expanded_folders":
 	[
 		"/Users/nibnait/Library/Rime",
-		"/Users/nibnait/Library/Rime/opencc"
+		"/Users/nibnait/Library/Rime/build"
 	],
 	"file_history":
 	[
-		"/Users/nibnait/Library/Rime/opencc/emoji.json",
-		"/Users/nibnait/Library/Rime/double_pinyin.custom.yaml",
+		"/Users/nibnait/Library/Rime/build/double_pinyin_flypy.schema.yaml",
+		"/Users/nibnait/Library/Rime/default.custom.yaml",
 		"/Users/nibnait/Library/Rime/custom_phrase.txt",
+		"/Users/nibnait/Library/Rime/double_pinyin_flypy.schema.yaml",
 		"/Users/nibnait/Library/Rime/opencc/emoji_category.txt",
 		"/Users/nibnait/Library/Rime/opencc/emoji_word.txt",
-		"/Users/nibnait/Library/Rime/double_pinyin.schema.yaml",
-		"/Users/nibnait/Library/Rime/double_pinyin_flypy.schema.yaml",
+		"/Users/nibnait/Library/Rime/symbols.yaml",
+		"/Users/nibnait/Library/Rime/double_pinyin.custom.yaml",
+		"/Users/nibnait/Library/Rime/luna_pinyin.custom.yaml",
+		"/Users/nibnait/Library/Rime/double_pinyin_flypy.custom.yaml",
+		"/Users/nibnait/Library/Rime/build/easy_en.schema.yaml",
 		"/Users/nibnait/Library/Rime/build/luna_pinyin.schema.yaml",
-		"/Users/nibnait/Library/Rime/default.custom.yaml",
+		"/Users/nibnait/Library/Rime/build/stroke.schema.yaml",
+		"/Users/nibnait/Library/Rime/build/default.yaml",
+		"/Users/nibnait/Library/Rime/build/Find Results",
+		"/Users/nibnait/Library/Rime/opencc/emoji.json",
+		"/Users/nibnait/Library/Rime/double_pinyin.schema.yaml",
 		"/Users/nibnait/Library/Rime/.gitignore",
 		"/Users/nibnait/Library/Rime/untitled",
-		"/Users/nibnait/Library/Rime/double_pinyin_flypy.custom.yaml",
 		"/Users/nibnait/Library/Rime/Custom_phrase.txt",
 		"/Users/nibnait/Library/Rime/mobile/rime.lua",
 		"/Users/nibnait/Library/Rime/rime.lua",
@@ -210,14 +181,7 @@
 		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/nevermore.remind发布.md",
 		"/Users/nibnait/apache-maven-3.6.3/conf/settings.xml",
 		"/Users/nibnait/Desktop/input",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/ATA大学/如何画图.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/queryShortNumber",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/1120发布.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/eos通知订单信息变更",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/订单卡片-出餐时长模块.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/匿名小号.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/feature:blink_read_migrate 发布.md",
-		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/迭代开发文档/1911/switch:"
+		"/Users/nibnait/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/ATA大学/如何画图.md"
 	],
 	"find":
 	{
@@ -236,6 +200,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ds",
+			"\\、",
+			"/ok",
+			"小时",
+			"\"/\"",
+			"'\"",
+			"'",
+			" ",
+			"【",
+			"[",
+			"\"[\"",
+			"full_shape",
+			"【",
+			"＼",
+			"【",
+			"】",
+			"【",
+			"/tj",
+			"/ql",
 			"/yl",
 			"/ty",
 			"/xx",
@@ -306,129 +289,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "double_pinyin_flypy.schema.yaml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27669,
-								27669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6206.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "custom_phrase.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1091,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "opencc/emoji_word.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 63888,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2101.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "opencc/emoji_category.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4056,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -449,18 +311,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.700704102876,
 			1.0
 		],
 		"rows":
@@ -524,7 +379,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 432.0,
+	"side_bar_width": 358.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
